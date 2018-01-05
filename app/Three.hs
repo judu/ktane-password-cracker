@@ -1,9 +1,10 @@
 module Three where
 
 import With3Letters
+import Data.List
 
 printWords :: [String] -> IO ()
-printWords words = putStrLn $ foldr (\x y -> y ++ "\t" ++ x) "" words
+printWords = putStrLn.intercalate "\t"
 
 main :: IO ()
 main = do
