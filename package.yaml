@@ -26,7 +26,7 @@ library:
   source-dirs: src
 
 executables:
-  keep-talking-full:
+  ktane-password-full:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -36,7 +36,7 @@ executables:
     dependencies:
     - keep-talking-password-solver
 
-  keep-talking-three:
+  ktane-password-three:
     main:                Three.hs
     source-dirs:         app
     ghc-options:
